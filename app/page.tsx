@@ -14,7 +14,16 @@ export default function page() {
           ― Plato, The Republic
         </p>
 
-        <div className="text-center mt-8">
+        <div className='mt-8 text-center'>
+          <h3 className='text-xl mb-3 underline underline-offset-4'>Our Manifesto</h3>
+          <ul className='text-lg font-light'>
+            <li className='py-1'>No spams. No dopamine.</li>
+            <li className='py-1'>Non-profit. No ads.</li>
+            <li className='py-1'>Open source. Transparent.</li>
+          </ul>
+        </div>
+
+        <div className="text-center mt-10">
           <a href="https://tally.so/r/w8aqXl" target='_blank'>
             <button className='border-2 border-black p-2 drop-shadow-lg rounded-lg bg-white'>
               Join Waitlist
