@@ -17,8 +17,8 @@ export default function page() {
         <div className='mt-8 text-center'>
           <h3 className='text-xl mb-3 underline underline-offset-4'>Manifesto</h3>
           <ul className='text-lg font-light'>
-            <li className='py-1'>No spams. No dopamine.</li>
-            <li className='py-1'>Non-profit. No ads.</li>
+            <li className='py-1'>No spams. No bots.</li>
+            <li className='py-1'>No dopamine. No ads.</li>
             <li className='py-1'>
               <a className='underline underline-offset-4' href="https://github.com/KhoiUna/platopunk" target='_blank'>Open source</a>. Transparent.
             </li>
