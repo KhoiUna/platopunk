@@ -1,3 +1,3 @@
-# PlatoPunk
+# PlatoPunk | Open Minds. Open Source. Crafting Utopian Futures.
 
-This is the public monorepo of PlatoPunk - a place to talk ideas for building a utopian future.
+PlatoPunk is a platform for people who are passionate about sharing/using/building (open-source) tech/art that crafts a better future.
