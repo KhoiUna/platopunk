@@ -2,10 +2,11 @@ import Image from 'next/image'
 
 export default function page() {
   return (
-    <main className='min-h-screen p-3'>
+    <main className='min-h-screen p-5 pt-0'>
       <Image className='m-auto' src={'/images/platopunk.webp'} alt='Logo' width={90} height={90} />
       <h1 className='text-center text-2xl'>PlatoPunk</h1>
-      <h2 className='text-center text-lg font-light mt-1'>Open Minds. Open Source. Crafting Utopian Futures.</h2>
+      <h2 className='text-center text-xl font-light mt-1 italic'>Open Minds. Open Source. Crafting Utopian Futures.</h2>
+      <h3 className='max-w-[400px] text-center text-lg font-light mt-3 mx-auto'>PlatoPunk is a platform for people who are passionate about sharing/using/building (open-source) tech/art that crafts a better future.</h3>
 
       <div className='pt-20'>
         <Image className='w-[150px] m-auto rounded-full' priority src={'/images/plato.jpg'} alt='Plato' width={500} height={500} />
