@@ -9,7 +9,7 @@ export default function Page() {
 				to the world.
 			</h1>
 
-			<div className='bg-gray-100 absolute bottom-0 right-10 h-[30rem] w-[30rem] rounded-full animate-bounce' />
+			<div className='-z-10 bg-gray-100 absolute bottom-0 right-10 h-[30rem] w-[30rem] rounded-full animate-bounce' />
 		</div>
 	);
 }
