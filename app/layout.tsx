@@ -7,7 +7,11 @@ import Navigation from '@/components/navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const description = 'PlatoPunk is a software development studio trying to ship useful & minimalistic software to the world.'.slice(0, 160);
+const description =
+	'PlatoPunk is a software development studio trying to ship useful & minimalistic software to the world.'.slice(
+		0,
+		160
+	);
 
 export const metadata: Metadata = {
 	title: {
@@ -23,7 +27,7 @@ export const metadata: Metadata = {
 		siteName: `${BRAND_NAME}`,
 		images: [
 			{
-				url: '/images/og.png',
+				url: '/images/plato.jpg',
 				width: 512,
 				height: 512,
 			},
