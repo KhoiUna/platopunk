@@ -7,7 +7,8 @@ import Navigation from '@/components/navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const description = 'A place to talk ideas for building a utopian future.';
+const description = 'PlatoPunk is a software development studio trying to ship useful & minimalistic software to the world.'.slice(0, 160);
+
 export const metadata: Metadata = {
 	title: {
 		default: `Home | ${BRAND_NAME}`,
