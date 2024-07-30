@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { BRAND_NAME, BRAND_URL } from './config';
 import Analytics from '@/components/analytics';
+import Navigation from '@/components/navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -40,7 +41,11 @@ export default function RootLayout({
 		<html lang='en'>
 			<Analytics />
 
-			<body className={inter.className}>{children}</body>
+			<body className={inter.className}>
+				<Navigation />
+
+				<main>{children}</main>
+			</body>
 		</html>
 	);
 }
