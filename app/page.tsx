@@ -2,7 +2,7 @@ export default function Page() {
 	return (
 		<div className='p-4'>
 			<h1 className='text-2xl sm:text-4xl font-thin pt-20 max-w-3xl leading-loose'>
-				<b>PlatoPunk</b> is a software development studio trying to ship
+				<b>PlatoPunk</b> is a software development studio shipping
 				<i className='px-2 underline decoration-2 underline-offset-8'>
 					minimalistic software
 				</i>{' '}

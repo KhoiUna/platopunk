@@ -8,7 +8,7 @@ import Navigation from '@/components/navigation';
 const inter = Inter({ subsets: ['latin'] });
 
 const description =
-	'PlatoPunk is a software development studio trying to ship useful & minimalistic software to the world.'.slice(
+	'PlatoPunk is a software development studio shipping minimalistic software to the world.'.slice(
 		0,
 		160
 	);
