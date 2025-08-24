@@ -13,12 +13,6 @@ export default function Navigation() {
 				/>
 				<p>PlatoPunk</p>
 			</Link>
-			<Link
-				href={'/projects'}
-				className='px-4 py-2 hover:underline transition-colors rounded-lg'
-			>
-				Projects
-			</Link>
 		</nav>
 	);
 }

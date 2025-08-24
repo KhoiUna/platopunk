@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Page() {
 	return (
 		<div className='p-4'>
@@ -8,6 +10,13 @@ export default function Page() {
 				</i>{' '}
 				to the world.
 			</h1>
+
+			<Link
+				href={'/projects'}
+				className='block text-xl mt-10 underline decoration-2 underline-offset-8'
+			>
+				View Projects
+			</Link>
 
 			<div className='-z-10 bg-gray-100 absolute bottom-0 right-10 h-[30rem] w-[30rem] rounded-full animate-bounce' />
 		</div>
