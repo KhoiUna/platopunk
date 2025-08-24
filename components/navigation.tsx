@@ -6,12 +6,11 @@ export default function Navigation() {
 		<nav className='flex items-center justify-between'>
 			<Link href={'/'} className='px-4 py-2 flex items-center space-x-1'>
 				<Image
-					src={'/images/platopunk.webp'}
+					src={'/images/android-chrome-192x192.png'}
 					alt='Logo'
-					width={50}
-					height={50}
+					width={80}
+					height={80}
 				/>
-				<p>PlatoPunk</p>
 			</Link>
 		</nav>
 	);
