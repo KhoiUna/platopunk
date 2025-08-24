@@ -13,7 +13,7 @@ export default function Page() {
 
 			<Link
 				href={'/projects'}
-				className='block text-xl mt-10 underline decoration-2 underline-offset-8'
+				className='block w-fit text-xl mt-10 underline decoration-2 underline-offset-8'
 			>
 				View Projects
 			</Link>
