@@ -15,12 +15,12 @@ export default function ProjectsPage() {
 				<div className='border-l-4 border-gray-300 pl-6'>
 					<h2 className='text-xl sm:text-2xl font-thin mb-3'>
 						<a
-							href='https://plainsql.platopunk.com/'
+							href='https://lipsql.platopunk.com/'
 							target='_blank'
 							rel='noopener noreferrer'
 							className='hover:underline'
 						>
-							<b>PlainSQL</b>
+							<b>LipSQL</b>
 						</a>
 					</h2>
 					<p className='text-gray-600 mb-4 leading-relaxed'>
