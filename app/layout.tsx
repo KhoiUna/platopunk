@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 const description =
 	'PlatoPunk is a software development studio shipping minimalistic software to the world.'.slice(
 		0,
-		160
+		160,
 	);
 
 export const metadata: Metadata = {
